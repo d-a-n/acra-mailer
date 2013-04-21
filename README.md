@@ -8,6 +8,11 @@ Easy to use mailer that sends you all crash reports from your Android apps.
 - nice Bootstrap e-mail layout
 - secured by a shared secret
 
+## Requirements
+- webserver with PHP support
+- [Application Crash Report for Android](https://github.com/ACRA/acra)
+- 5 minutes for setup
+
 ## Setup
 1. put **acra.php** on a PHP enabled webserver
 2. open **acra.php**, set a secret and safe the file
@@ -36,7 +41,7 @@ public void onCreate() {
 		ACRA.getErrorReporter().setReportSender(new ACRAPostSender(ACRAData));
 ```
 
-## E-Mail error report
+## Sample E-Mail error report
 
 <center>
 <img src="https://raw.github.com/d-a-n/acra-mailer/assets/screen.png">
