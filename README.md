@@ -35,8 +35,11 @@ public void onCreate() {
     ACRAData.put("my_app_info", "custom data");
 		ACRA.getErrorReporter().setReportSender(new ACRAPostSender(ACRAData));
 ```
+
+## E-Mail error report
+
 <center>
-<img src="" width="70%">
+<img src="https://raw.github.com/d-a-n/acra-mailer/assets/screen.png">
 </center>
 
 
