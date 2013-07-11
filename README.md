@@ -15,7 +15,7 @@ Easy to use mailer that sends you all crash reports from your Android apps.
 
 ## Setup
 1. put **acra.php** on a PHP enabled webserver
-2. open **acra.php**, set a secret and safe the file
+2. open **acra.php**, set a secret and save the file
 ```
 //CONFIG
 $shared_secret = "<put your shared secret here>";
